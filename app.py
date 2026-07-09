@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from faq_data import APP_NAME, FAQS, FEATURES, STARTER_PROMPTS, SUBTITLE, TAGLINE
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=".", static_folder=".", static_url_path="/static")
 
 WORD_RE = re.compile(r"[a-z0-9']+")
 GREETING_RE = re.compile(r"^(hi|hello|hey|hiya|good morning|good afternoon|good evening)[!. ]*$", re.I)
