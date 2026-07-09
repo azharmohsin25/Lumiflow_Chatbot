@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="LumiFlow favicon">
+  <defs>
+    <linearGradient id="bg" x1="48" y1="48" x2="464" y2="464" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2f5ea"/>
+      <stop offset="0.48" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="#081120"/>
+  <circle cx="256" cy="256" r="176" fill="url(#bg)"/>
+  <circle cx="198" cy="180" r="72" fill="url(#shadow)"/>
+  <text
+    x="256"
+    y="314"
+    text-anchor="middle"
+    font-family="Space Grotesk, Manrope, Arial, sans-serif"
+    font-size="148"
+    font-weight="700"
+    letter-spacing="-12"
+    fill="#081120"
+  >
+    LF
+  </text>
+</svg>
